@@ -1,0 +1,11 @@
+@mixin font ($justify-content,$display,$color)
+{
+justify-content:$justify-content;
+display:$display;
+color:$color;
+}
+
+%flex {
+display: flex;
+justify-content: center;
+}
